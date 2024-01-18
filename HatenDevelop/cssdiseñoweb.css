@@ -1,0 +1,220 @@
+*
+{
+  margin:0;
+  padding: 0;
+  color:#000;
+  font-family: 'Sarabun', sans-serif;
+}
+
+header {
+    margin: 0 0 50px 0;
+    background-image: url(Imagenes/bote.jpg);
+    background-image: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:80vh;
+
+}
+
+header a {
+  color:#fff;
+  text-decoration: none;
+  font-size: 24px
+}
+header li:hover {
+  background: #050D0D;
+  transition: .5s;
+}
+
+.menu__responsive {
+  display: none;
+}
+
+.menu__container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+}
+
+.menu__lista {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #002626;
+  text-align: center;
+}
+
+.menu__li {
+  display: inline-block;
+  padding:10px;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+  .menu__lista {
+    display: none;
+  }
+
+  .menu__responsive {
+    display: block;
+    position: fixed;
+    background: #002626;
+    width: 50%;
+    height: 100vh;
+  }
+
+  .menu__ul-responsive {
+    padding-top: 60px;
+    list-style: none;
+  }
+  .menu__li-responsive {
+    padding: 15px;
+  }
+  .fa-angle-up {
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+  }
+  .menu__barra-responsive:hover > .menu__ul-responsive {
+    display: none;
+  }
+}
+
+
+.goku{
+  position: center;
+   background:#000;
+    margin: 0 0
+    0px 0;
+    padding: 20px;
+    background: url("Imagenes/gokujr.jpg");
+    background-size: 100%;
+    backgrounf-repeat:repeat-x;
+    background-position: center;
+    height:500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body
+{
+  background: #488;
+  margin:0;
+  pading: 0;
+  color:#fff;
+  font-family: 'Sarabun', sans-serif;
+  }
+
+header a
+{
+  color:#fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+header a:hover
+{
+  color:#cc234d;
+}
+
+.menu__li{
+  display: inline-block;
+  padding:10px;
+}
+
+header{
+  background:#000;
+  margin: 0 0 50px 0;
+  padding: 20px;
+  background: url("Images/bote.jpg");
+  background-size: 100%;
+  backgrounf-repeat:repeat-x;
+  height:500px;
+}
+.bote{
+  width: 100%;
+  object-fit: cover;
+  z-index: 500;
+}
+  .contenedor{
+    background:#fff;
+    color:#000;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    max-widht: 1200px;
+    margin: auto;
+  }
+  .pie
+    {
+      background: #000;
+      padding:20px;
+      margin-top: 50px;
+    }
+
+  nav
+  {
+    display: flex;
+    vertical-align: middle;
+    margin-top:10px;
+  }
+  .menu{
+    width:70%;
+    text-align: right;
+    text-shadow: 0px 1px #000;
+      }
+
+
+.hg{}
+  .logo{
+    text-align: left;
+    width:30%;
+  }
+
+
+  .parallax{
+    backgorund-image: url("Images/kameja.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:500px;
+  }
+*/

@@ -1,0 +1,132 @@
+
+.grid{
+  display:grid;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.logo
+{
+  width: 30%;
+  float: left;
+  margin-top: 10px;
+}
+.menu
+{
+    width: 70%;
+    float: left;
+}
+
+.bloque1
+{
+ width: 96%;
+ height: auto;
+ max-width: 1200px;
+ margin: auto;
+}
+
+.bloque1c{
+  display:grid;
+  grid-template-columns:20% 37% 37%;
+}
+
+#bloquea{
+ width:50%;
+ height: auto;
+ max-width: 1200px;
+ margin: auto;
+}
+
+#bloqueb{
+ width: 50%;
+ height: auto;
+ max-width: 1200px;
+ margin: auto;
+ float: left;
+}
+
+.bloque2
+{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+.bloque2a1
+{
+  width: 50%;
+  height: auto;
+  float: right;
+}
+
+
+
+.bloque2a
+{
+  width: 20%;
+  height: auto;
+  float: left;
+}
+
+.bloque2b
+{
+  width: 20%;
+  height: auto;
+  float: right;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+
+}
+
+.img-container img{
+  width: 100%;
+}
+
+.bloque3
+{
+  width: 33.33%;
+  height: 60%;
+  float: left;
+}
+
+.bloque3a {
+  width: 20.33%;
+  height: 60%;
+  float: right;
+}
+
+.bloque3b {
+  width: 20.33%;
+  height: 60%;
+  float: cener;
+}
+
+span.pixel{
+  vertical-align: -10px;
+}
+
+.bloque4
+{
+  width: 25%;
+  height: auto;
+  float: left;
+  padding:20px;
+}
+
+H1{
+text-align:center;
+}
+
+#subtitulo{
+  text-align: center;
+}
+#fechapagina{
+  text-align: center;
+}
